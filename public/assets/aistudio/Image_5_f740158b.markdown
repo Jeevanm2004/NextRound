@@ -1,0 +1,229 @@
+---
+name: Kinetic Executive
+colors:
+  surface: '#0f131c'
+  surface-dim: '#0f131c'
+  surface-bright: '#353943'
+  surface-container-lowest: '#0a0e17'
+  surface-container-low: '#181b25'
+  surface-container: '#1c1f29'
+  surface-container-high: '#262a34'
+  surface-container-highest: '#31353f'
+  on-surface: '#dfe2ef'
+  on-surface-variant: '#c7c4d8'
+  inverse-surface: '#dfe2ef'
+  inverse-on-surface: '#2c303a'
+  outline: '#918fa1'
+  outline-variant: '#464555'
+  surface-tint: '#c3c0ff'
+  primary: '#c3c0ff'
+  on-primary: '#1d00a5'
+  primary-container: '#4f46e5'
+  on-primary-container: '#dad7ff'
+  inverse-primary: '#4d44e3'
+  secondary: '#4edea3'
+  on-secondary: '#003824'
+  secondary-container: '#00a572'
+  on-secondary-container: '#00311f'
+  tertiary: '#ffb95f'
+  on-tertiary: '#472a00'
+  tertiary-container: '#885500'
+  on-tertiary-container: '#ffd4a4'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#e2dfff'
+  primary-fixed-dim: '#c3c0ff'
+  on-primary-fixed: '#0f0069'
+  on-primary-fixed-variant: '#3323cc'
+  secondary-fixed: '#6ffbbe'
+  secondary-fixed-dim: '#4edea3'
+  on-secondary-fixed: '#002113'
+  on-secondary-fixed-variant: '#005236'
+  tertiary-fixed: '#ffddb8'
+  tertiary-fixed-dim: '#ffb95f'
+  on-tertiary-fixed: '#2a1700'
+  on-tertiary-fixed-variant: '#653e00'
+  background: '#0f131c'
+  on-background: '#dfe2ef'
+  surface-variant: '#31353f'
+typography:
+  headline-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.025em
+  headline-xl-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 30px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 26px
+    letterSpacing: -0.01em
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 22px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+    letterSpacing: 0.01em
+  label-lg:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 10px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-tablet: 1.5rem
+  margin-desktop: 2.5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.25rem
+---
+
+## Brand & Style
+
+The design system projects momentum, meticulous preparation, and focused ambition. Engineered for ambitious professionals navigating high-stakes career transitions, the interface operates with the precision of an executive cockpit and the clarity of a boutique editorial publication. The emotional tone must evoke calm mastery under pressure, reducing the ambient cognitive load of job hunts into structured, actionable progress.
+
+The aesthetic fuses **Tactile Modernism** with **High-Craft Minimalism**:
+- Crisp, feather-weight borders delineate structured data panels without heavy visual noise.
+- Translucent tonal surfaces with micro-blur allow background metrics and deep kanban boards to feel dimensional yet grounded.
+- Focused semantic color coding turns chaotic application pipelines into instantaneous visual signals.
+- Intentional density ensures critical interview intelligence, timelines, and talking points remain immediately scannable.
+
+## Colors
+
+The palette relies on a deep slate/zinc midnight foundation (`#090D16` to `#1E293B`) paired with high-resonance status pigments to communicate stage progression instantly:
+
+- **Primary (`#4F46E5` - Deep Indigo):** Represents action, focus, and core platform mechanics. Used for primary CTAs, active pipeline stages, active tab accents, and focus indicators.
+- **Secondary (`#10B981` - Refined Emerald):** Dedicated exclusively to victory milestones—offers received, accepted stages, target salary matches, and successful prep milestones.
+- **Tertiary (`#F59E0B` - Kinetic Amber):** Signals urgency and high-engagement phases—scheduled interviews, live recruiter follow-ups, and upcoming countdowns.
+- **Accent - Applied (`#0EA5E9` - Sky):** Indicates active outgoing applications, submitted assignments, and waiting states.
+- **Neutral Palette:** Ranges from absolute ink backgrounds (`#090D16`) to subtle surface containers (`#0F172A`, `#1E293B`), complemented by crisp, high-legibility text tiers ranging from pure white (`#F8FAFC`) to muted slate metadata (`#64748B`).
+
+## Typography
+
+The typography pairing combines the geometry and executive presence of **Plus Jakarta Sans** for headers with the legibility of **Inter** for data tables, form controls, and editorial interview notes.
+
+- **Display & Headlines:** Set tight tracking (`-0.025em` to `-0.015em`) on Plus Jakarta Sans to prevent large headings from sprawling across compact mobile cards.
+- **Numbers & Metrics:** Quantitative interview data (salaries, rounds completed, dates) should leverage tabular figures (`font-variant-numeric: tabular-nums`) in Inter to align seamlessly in dense list views.
+- **Pill Badges & Stage Chips:** Set in `label-sm` or `label-md` using uppercase or title case with deliberate tracking (`0.02em` - `0.04em`) to maintain sharp legibility against colored backdrops.
+
+## Layout & Spacing
+
+The system implements a fluid, responsive 12-column layout grid on desktop and a high-density, horizontal-snapping columnar system on mobile devices.
+
+- **Mobile Viewport (<768px):** Uses `margin: 1rem` and compact `space-sm` / `space-md` gaps. Kanban boards transform into edge-to-edge horizontally swipeable stage lanes or segmented controls to maximize card width.
+- **Tablet (768px - 1024px):** Uses `margin: 1.5rem` with a hybrid split view (application list on left, interview prep dossier on right).
+- **Desktop (1024px+):** Scales to 12 columns with maximum container constraints of `1440px` and `margin: 2.5rem`. The kanban board displays all major lifecycle columns simultaneously (Saved, Applied, Interviewing, Offer).
+- **Internal Spacing:** Micro-paddings inside job cards leverage `space-sm` (vertical) and `space-md` (horizontal) to preserve vertical screen estate without creating visual crowding.
+
+## Elevation & Depth
+
+Visual hierarchy is communicated through **structural tonal layering** combined with **subtle tinted backdrops and hairline borders**, rather than heavy drop shadows:
+
+- **Canvas Base (Level 0):** Pure dark background (`#090D16`), completely neutral and non-reflective.
+- **Surface Panels & Lanes (Level 1):** Subtly raised dark slate container (`#0F172A`) bordered by a `1px` translucent boundary (`rgba(255, 255, 255, 0.06)`).
+- **Interactive Cards (Level 2):** Elevated surface (`#1E293B`) framed with a crisp boundary (`rgba(255, 255, 255, 0.08)`). On hover or touch selection, cards emit a faint, localized ambient glow tinted with the card’s status color (e.g., Indigo for applied, Amber for interview).
+- **Floating Overlays & Bottom Nav (Level 3):** Frosted glass surfaces (`rgba(15, 23, 42, 0.85)`) with an `18px` background blur, anchored by a hairline top border (`rgba(255, 255, 255, 0.12)`).
+
+## Shapes
+
+The design system maintains a refined balance between technical rigor and modern warmth:
+
+- **Standard Containers & Cards:** Utilize `roundedness: 2` (0.5rem / 8px) for job cards, input modules, and stage containers, conveying an organized, modular appearance.
+- **Modals, Flyouts & Action Sheets:** Use `rounded-lg` (1rem / 16px) or `rounded-xl` (1.5rem / 24px) for top-sheet corners on mobile to feel tactile and native.
+- **Pill Badges & Stage Indicator Chips:** Pure pill shapes (`rounded-full` / 9999px) for pipeline stage flags (e.g., "Interviewing", "Offer Extended"), ensuring instant differentiation from structural layout cards.
+
+## Components
+
+### Buttons
+- **Primary:** Filled with `#4F46E5`, crisp white text, `label-md` font weight, subtle inset highlight along top edge. Hover states increase brightness slightly.
+- **Secondary / Ghost:** Transparent surface with a `1px` border of `rgba(255, 255, 255, 0.14)` and text color `#F8FAFC`. Active state tints the background to `rgba(255, 255, 255, 0.05)`.
+- **Destructive:** Desaturated wine container with high-contrast crimson text and border.
+
+### Status Badges & Chips
+- Designed as micro-pills (`rounded-full`, height 24px, padding 0 10px).
+- **Offer:** Background `rgba(16, 185, 129, 0.12)`, text `#10B981`, border `rgba(16, 185, 129, 0.3)`.
+- **Interviewing:** Background `rgba(245, 158, 11, 0.12)`, text `#F59E0B`, border `rgba(245, 158, 11, 0.3)`.
+- **Applied:** Background `rgba(14, 165, 233, 0.12)`, text `#0EA5E9`, border `rgba(14, 165, 233, 0.3)`.
+- **Saved / Prospect:** Background `rgba(148, 163, 184, 0.12)`, text `#94A3B8`, border `rgba(148, 163, 184, 0.25)`.
+
+### Kanban Job Cards
+- Compact composite card (`#1E293B`) with `1px` edge borders.
+- Top row: Company avatar icon (24px) alongside job title, flanked by status badge.
+- Middle: Salary range, location type (Remote/Hybrid), and stage indicator.
+- Footer: Next action countdown (e.g., "Prep Session - Tomorrow, 2:00 PM") with a mini-progress pip for interview rounds (e.g., "Round 3 of 4").
+
+### Form Inputs & Interview Notes
+- Dark recessed background (`#0B0F19`) surrounded by `1px` border (`rgba(255, 255, 255, 0.1)`).
+- On focus, border transitions to `#4F46E5` accompanied by an indigo micro-ring (`0 0 0 1px #4F46E5`).
+
+### Sleek Bottom Navigation
+- Anchored at bottom with safe-area insets.
+- Height: 64px, backed by dark translucent glass (`rgba(9, 13, 22, 0.85)` + blur).
+- Active item displays an indigo micro-indicator line at the top and an intensified icon fill.
+
+### Interview Prep Dossier Card
+- Dedicated AI-coaching widget featuring an accent border along the left spine (`3px solid #F59E0B` for live rounds).
+- Provides collapsible accordion cards for STAR-method question breakdowns, company intelligence cheat-sheets, and counter-question templates.
